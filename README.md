@@ -4,8 +4,12 @@ Application JM Logs Back-end
 #Step by Step to run:
 
 ##Install postgreeSQL
+##Install java
+
 ##Create database "p_jmlogs"
+
 ##On project folder open prompt and enter:
+
 ###	mvn clean;
 ###	mvn package;
 ###	java -jar target\jm-logs-0.0.1-SNAPSHOT.jar
@@ -38,4 +42,4 @@ Application JM Logs Back-end
 			}
 ##	Delete log: http://localhost:8080/api/v1/logs/65
 ##	Post file: http://localhost:8080/api/v1/logs/upload
-		(Post file using: Content-Type: multipart/form-data;"	
+		(Post file using: Content-Type: multipart/form-data;")	
